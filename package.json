@@ -1,0 +1,27 @@
+{
+  "name": "webpack5-wasm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkaaddff/webpack5-wasm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkaaddff/webpack5-wasm/issues"
+  },
+  "homepage": "https://github.com/kkaaddff/webpack5-wasm#readme",
+  "devDependencies": {
+    "webpack": "^5.20.1",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
