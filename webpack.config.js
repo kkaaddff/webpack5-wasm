@@ -1,7 +1,13 @@
 module.exports = {
   mode: "development",
-  resolve: {
-    extensions: [".js", ".jsx"],
+  devtool: "source-map",
+  module: {
+    rules: [
+      {
+        test: /\.wasm$/,
+        type: "webassembly/async",
+      },
+    ],
   },
   experiments: {
     asyncWebAssembly: true,
