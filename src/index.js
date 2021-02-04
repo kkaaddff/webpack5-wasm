@@ -1,2 +1,2 @@
-import { add } from "./main.wasm";
-console.log(add(1, 2));
+import main from "./main.wasm";
+console.log(main);
